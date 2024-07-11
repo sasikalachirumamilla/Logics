@@ -32,16 +32,15 @@ revNum = revNum * 10 + remainder;
 num = num/10; 
 
 
-
 //151/10=  15
 //Again check 3 conditions for number 15
                                                                                   
 }//while closing                                                                                    
                                                                                                                                                                                           
-if (num == revNum) {
-System.out.println(num + " is Palindrome.");
+if (originalNum == revNum) {
+System.out.println(originalNum + " is Palindrome.");
 } else {
-System.out.println(num + " is not Palindrome.");
+System.out.println(originalNum + " is not Palindrome.");
 }
 }//closing method
 
