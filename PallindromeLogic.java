@@ -20,7 +20,7 @@ int remainder = num % 10;
 //--------
 //REMAINDER IS 1
 //STORING 1ST ELEMENT 1 IN REMAINDER
-//TARGET: 151------------(1)51
+//TARGET: 151-----------(1)51
 
                                                                       
 revNum = revNum * 10 + remainder; 
