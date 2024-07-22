@@ -18,7 +18,7 @@ letter=sc.next();
 
 StringBuilder sb=new StringBuilder(str);
 sb.replace(index1, index, letter);
-//System.out.println(sb);
+ //System.out.println(sb);
 
 if (index >= 0 && index < sb.length()) 
 {
